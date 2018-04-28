@@ -1,0 +1,30 @@
+html, body {
+    width: 220mm;
+    /*height: 297mm;*/
+    margin: auto;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0.3em 0.3em 0.4em gray;
+}
+
+@page {
+  size: letter;
+  margin: 0;
+}
+
+@media print {
+  html, body {
+    width: 210mm;
+    /*height: 297mm;*/
+    margin: none;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+.horizontal-rule {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.left-vertical-rule {
+    border-left: 1px solid #dbdbdb;
+}

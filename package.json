@@ -1,0 +1,16 @@
+{
+  "name": "resume-web",
+  "version": "1.0.0",
+  "description": "My Resume using Nextgen Web Tech",
+  "main": "index.js",
+  "author": "Anthony DeDominic <adedomin@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adedomin/resume-web.git"
+  },
+  "dependencies": {
+    "bulma": "^0.7.1"
+  }
+}
