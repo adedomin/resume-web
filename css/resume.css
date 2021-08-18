@@ -12,8 +12,9 @@ body {
 }
 
 @media print {
+  * { font-size: 10.5pt; }
   html, body {
-    width: 210mm;
+    width: 203mm;
     /*height: 297mm;*/
     margin: 0;
     border: none;
