@@ -1,5 +1,5 @@
 <!--
-      Copyright (c) 2018 Anthony DeDominic <adedomin@gmail.com>
+      Copyright (c) 2026 Anthony DeDominic <adedomin@gmail.com>
 
       Permission is hereby granted, free of charge, to any person obtaining a copy of
       this software and associated documentation files (the "Software"), to deal in
@@ -25,210 +25,99 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="css/resume.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>Anthony DeDominic Resume</title>
   </head>
   <body>
-    <section class="section print-no-pad">
-      <content class="container">
-        <div class="level is-mobile horizontal-rule">
-          <div class="level-item">
-            <h1 class="title is-4">Anthony DeDominic</h1>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">Number</p>
-              <a href="tel:15555555555">+1 (555) 555-5555</a>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">Email</p>
-              <a href="mailto:adedomin@gmail.com">adedomin@gmail.com</a>
-            </div>
-          </div>
+    <div class=document>
+      <div class="title hr">
+        <h1>Anthony DeDominic</h1>
+        <div class=center>
+          <p class="heading small">Number</p>
+          <a href="tel:15555555555">+1 (555) 555-5555</a>
         </div>
-        <p></p>
-      </content>
-      <content class="content">
+        <div class=center>
+          <p class="heading small">Email</p>
+          <a href="mailto:adedomin@gmail.com">adedomin@gmail.com</a>
+        </div>
+      </div>
+      <div class=content>
         <h4>Executive Summary</h4>
         <p>
-          Senior Software Engineer, specializing in Linux and other DevOps technologies, seeking
-          challenging opportunities to solve Continuous Integration and Deployment problems.
+          Senior Systems Administrator and Software Developer, specialized in Linux and container related technologies,
+          looking to solve challenging business needs,
+          like Model-Based Definition in engineering and manufacturing.
         </p>
-        <p><i>Keywords:</i> Linux, Rust, NGINX, Kubernetes, IIS, MS SQL Server, Powershell, Active Directory, Terraform, Ansible, git, Jenkins, Artifactory, maven, Java, Azure, html, css, js.<p>
-        <h4>Education</h4>
-      </content>
-      <content class="container">
-        <div class="level is-mobile">
-          <div class="level-item has-text-centered">
-            <div>
-              <table class="table is-narrow">
-                <tbody>
-                  <tr>
-                    <td class="is-uppercase" colspan="2">
-                      <small>Eastern Connecticut State Univ.</small>
-                    </td>
-                  </tr>
-                  <tr class="tablerow-no-borders">
-                    <td>Graduated</td>
-                    <td><small>Dec 2016</small></td>
-                  </tr>
-                  <tr class="tablerow-no-borders">
-                    <td>Degree</td>
-                    <td>
-                      <small>
-                        B.S. in Computer Science
-                      </small>
-                    </td>
-                  </tr>
-                  <tr class="tablerow-no-borders">
-                    <td>Honors</td>
-                    <td><small><i>summa cum laude</i></small></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+        <p class="small upper"><i>Keywords:</i> Linux, Rust, NGINX, Kubernetes, IIS, MS SQL Server, Powershell, Active Directory, Terraform, Ansible, git, Jenkins, Artifactory, maven, Java, Azure, html, css, js.<p>
+        <h4>Eduction</h4>
+        <div class=edu-block>
+          <div class=edu-table>
+            <span class="heading span-2 hr less-small">Eastern Connecticut State Univ.</span>
+            <span>Graduated</span><span>Dec 2016</span>
+            <span>Degree</span><span>B.S. in Computer Science</span>
+            <span>Honors</span><span><i>summa cum laude</i></span>
           </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <table class="table is-narrow">
-                <tbody>
-                  <tr>
-                    <td class="is-uppercase" colspan="2">
-                      <small>Manchester Community College</small>
-                    </td>
-                  </tr>
-                  <tr class="tablerow-no-borders">
-                    <td>Graduated</td>
-                    <td><small>Dec 2014</small></td>
-                  </tr>
-                  <tr class="tablerow-no-borders">
-                    <td>Degree</td>
-                    <td><small>A.S. in General Studies</small></td>
-                  </tr>
-                  <tr class="tablerow-no-borders">
-                    <td>Honors</td>
-                    <td><small><i>Dean's List</i></small></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+          <div class=edu-table>
+            <span class="heading span-2 hr less-small">Manchester Community College</span>
+            <span>Graduated</span><span>Dec 2014</span>
+            <span>Degree</span><span>A.S. in General Studies</span>
+            <span>Honors</span><span><i>Dean&apos;s List</i></span>
           </div>
         </div>
-        <p></p>
-      </content>
-      <content class="content">
         <h4>Work Experience</h4>
-      </content>
-      <content class="container">
-        <span class="has-text-centered">
-          <p class="heading">
-            Pratt &amp; Whitney Mar 2022 &mdash; Current
-          </p>
-        </span>
-        <div class="columns is-mobile is-vcentered">
-          <div class="column is-narrow has-text-right">
-            <p class="is-uppercase">
-              <small>
-                MES DT Sysadmin
-              </small>
-            </p>
-          </div>
-          <div class="column left-vertical-rule">
-            <p>
-              Deploy and administrate MBE-ready Shopfloor Execution Systems: Solumina iSeries, Opcenter Discrete.<br>
-              Deployments on Azure Gov Cloud, Kubernetes (AKS) and Windows Server 2022.
-              Installing and configuring web services like Java Servlet containers (Tomcat, et al.), NGINX and IIS.
-              Writing custom microservices and deploying them to Kubernetes.
-              Managing Java SDKs, artifact repositories and onboarding instructions.
-            </p>
-          </div>
+        <div class=work-exp-head>
+          <p class="heading less-small">Pratt &amp; Whitney Mar 2024 &mdash; Current</p>
+          <p class="heading less-small">MES Sysadmin</p>
         </div>
-        <span class="has-text-centered">
-          <p class="heading">
-            Veeder-Root Mar 2017 &mdash; Feb 2022
-          </p>
-        </span>
-        <div class="columns is-mobile is-vcentered">
-          <div class="column is-narrow has-text-right">
-            <p class="is-uppercase">
-              <small>
-                Senior Software Engineer
-              </small>
-            </p>
-          </div>
-          <div class="column left-vertical-rule">
-            <p>
-              Migration to newer software and technologies: git, cmake, jenkins, containers.<br>
-              Integrating cloud technologies for building and storing binary artifacts.<br>
-              Implementing development continuous integration work-flows.<br>
-              Develop security features for core products.<br>
-              Replacing shell scripting with python.<br>
-              Managing Toolchain features, upgrades, builds.
-            </p>
-          </div>
+        <ul>
+          <li>Deploy and administrate MBE-ready Shopfloor Execution Systems: Solumina iSeries, Opcenter Discrete.</li>
+          <li>Deployments on Azure Gov Cloud, Kubernetes (AKS) and Windows Server 2022.</li>
+          <li>Installing and configuring web services like Java Servlet containers (Tomcat, et al.), NGINX and IIS.</li>
+          <li>Writing custom microservices and deploying them to Kubernetes.</li>
+          <li>Managing Java SDKs, artifact repositories and onboarding instructions.</li>
+        </ul>
+        <div class=work-exp-head>
+          <p class="heading less-small">Veeder-Root Mar 2017 &mdash; Feb 2022</p>
+          <p class="heading less-small">Senior Software Engineer</p>
         </div>
-        <div class="columns is-mobile is-vcentered">
-          <div class="column is-narrow has-text-right">
-            <p class="is-uppercase">
-              <small>
-                System Administrator
-              </small>
-            </p>
-          </div>
-          <div class="column left-vertical-rule">
-            <p>
-              Administration of services like SVN and build servers.<br>
-              Linux developer, enabling features on embedded devices.<br>
-              JavaScript (NodeJS &amp; Browser) subject matter expert.<br>
-              Migrated software and services to cloud and containers.
-            </p>
-          </div>
+        <ul>
+          <li>Migration to newer software and technologies: git, cmake, jenkins, containers.</li>
+          <li>Integrating cloud technologies for building and storing binary artifacts.</li>
+          <li>Implementing development continuous integration work-flows.</li>
+          <li>Develop security features for core products.</li>
+          <li>Replacing shell scripting with python.</li>
+          <li>Managing Toolchain features, upgrades, builds.</li>
+        </ul>
+        <div class=work-exp-head>
+          <p></p>
+          <p class="heading less-small">System Administrator</p>
         </div>
-        <span class="has-text-centered">
-          <p class="heading">
-            Cigna Jan 2015 &mdash; Sep 2016
-          </p>
-        </span>
-        <div class="columns is-mobile is-vcentered">
-          <div class="column is-narrow has-text-right">
-            <p class="is-uppercase">
-              <small>
-                Private Cloud
-              </small>
-            </p>
-          </div>
-          <div class="column left-vertical-rule">
-            <p>
-              Internal customer facing web applications to control
-              private cloud and orchestration.<br>
-              Enabling cloud provisioning automation.<br>
-              Single Sign On cloud SSH service&mdash;public key management.<br>
-              Developed Ansible playbooks to deploy services.
-            </p>
-          </div>
+        <ul>
+          <li>Administration of services like SVN and build servers.</li>
+          <li>Linux developer, enabling features on embedded devices.</li>
+          <li>JavaScript (NodeJS &amp; Browser) subject matter expert.</li>
+          <li>Migrated software and services to cloud and containers.</li>
+        </ul>
+        <div class=work-exp-head>
+          <p class="heading less-small">Cigna Jan 2015 &mdash; Sep 2016</p>
+          <p class="heading less-small">Private Cloud</p>
         </div>
-        <div class="columns is-mobile is-vcentered">
-          <div class="column is-narrow has-text-right">
-            <p class="is-uppercase">
-              <small>
-                Delivery Acceleration
-              </small>
-            </p>
-          </div>
-          <div class="column left-vertical-rule">
-            <p>
-              Dynamic monitoring and reporting of CICD services.<br>
-              Scripts to collect Java JMX profiling data.<br>
-              Web front-ends to Jenkins to speed up creation of
-              deployment pipelines.
-            </p>
-          </div>
+        <ul>
+          <li>Internal customer facing web applications to control private cloud and orchestration.</li>
+          <li>Enabling cloud provisioning automation.</li>
+          <li>Single Sign On cloud SSH service&mdash;public key management.</li>
+          <li>Developed Ansible playbooks to deploy services.</li>
+        </ul>
+        <div class=work-exp-head>
+          <p></p>
+          <p class="heading less-small">Delivery Acceleration</p>
         </div>
-        <p></p>
-      </content>
-    </section>
+        <ul>
+          <li>Dynamic monitoring and reporting of CICD services.</li>
+          <li>Scripts to collect Java JMX profiling data.</li>
+          <li>Web front-ends to Jenkins to speed up creation of deployment pipelines.</li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
