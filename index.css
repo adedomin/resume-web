@@ -106,7 +106,7 @@ h4 {
 }
 
 .work-exp-head > p:first-child:not(:empty) {
-  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
 }
 
 ul {
