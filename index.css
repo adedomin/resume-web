@@ -105,6 +105,10 @@ h4 {
   clear: both;
 }
 
+.work-exp-head > p:first-child:not(:empty) {
+  border-top: 1px solid #dbdbdb;
+}
+
 ul {
   font-size: 0.85rem;
   margin-bottom: 1.5em;
