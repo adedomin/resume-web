@@ -94,11 +94,7 @@ h4 {
   column-gap: 1em;
 }
 
-.edu-table.no-head :nth-child(odd) {
-  text-align: right;
-}
-
-.edu-table.has-head :nth-child(even) {
+.edu-table span:nth-of-type(odd) {
   text-align: right;
 }
 
